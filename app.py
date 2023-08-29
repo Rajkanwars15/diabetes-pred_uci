@@ -1,11 +1,22 @@
 import joblib
 from fastapi import FastAPI
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# Set up CORS settings
+origins = ["http://localhost:3000"]  # Replace with your React app's URL
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Load the trained Random Forest model from the pickle file
 model = joblib.load('random_forest_model_with_label_encoder.pkl')
-
-app = FastAPI()
 
 class PredictionInput(BaseModel):
     Age: int
