@@ -25,7 +25,32 @@ Go to the project directory
   cd diabetes-pred_uci
 ```
 
-Make sure you have Python 3.10
+Make sure you have Python 3.10, FastAPI and NPM
+
+In the project directory, run
+```bash
+  uvicorn app:app --host 0.0.0.0 --port 8000 
+```
+Then
+```bash
+  cd diabetes-prediction-frontend
+  npm start
+```
+Now head over to http://localhost:3000 to test the app.
+
+## App
+![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+![web_yes.png](images%2Fweb_yes.png)
+![web_no.png](images%2Fweb_no.png)
+
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+
+iOS Yes             |  iOS No
+:-------------------------:|:-------------------------:
+![iOS_yes-1.png](images/iOS_yes-1.png)![iOS_yes-2.png](images/iOS_yes-2.png)  |  ![iOS_no-1.png](images/iOS_no-1.png)![iOS_no-2.png](images/iOS_no-2.png)
+![iOS_select.png](images/iOS_select.png)
+
 
 ## License
 

@@ -1,0 +1,113 @@
+/* PredictionForm.css */
+
+.container {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Set a maximum width */
+  margin: auto;
+  margin-top: 20px;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider-value {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.select-dropdown {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #272727;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prediction {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .form-label {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+  .prediction {
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .form-heading {
+    font-size: 20px;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  .select-dropdown {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+  .prediction {
+    font-size: 16px;
+  }
+}
