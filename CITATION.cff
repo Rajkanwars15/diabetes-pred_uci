@@ -10,7 +10,9 @@ version: 1.0.2
 date-released: 2023-08-29
 url: "https://github.com/Rajkanwars15/diabetes-pred_uci"
 
-APA
+# APA
 Singh, & Anirudh. (2023, August 29). Diabetes Prediction Form. https://github.com/Rajkanwars15/diabetes-pred_uci
-MLA: Singh, Rajkanwar, and P. Anirudh. Diabetes Prediction Form. 29 Aug. 2023, github.com/Rajkanwars15/diabetes-pred_uci.
-BibTex: @misc{Singh_Anirudh_2023, title={Diabetes Prediction Form}, url={https://github.com/Rajkanwars15/diabetes-pred_uci}, author={Singh, Rajkanwar and Anirudh, P}, year={2023}, month={Aug} }
+# MLA
+Singh, Rajkanwar, and P. Anirudh. Diabetes Prediction Form. 29 Aug. 2023, github.com/Rajkanwars15/diabetes-pred_uci.
+# BibTex
+@misc{Singh_Anirudh_2023, title={Diabetes Prediction Form}, url={https://github.com/Rajkanwars15/diabetes-pred_uci}, author={Singh, Rajkanwar and Anirudh, P}, year={2023}, month={Aug} }
