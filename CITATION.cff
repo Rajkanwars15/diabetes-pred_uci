@@ -1,18 +1,31 @@
-cff-version: 1.0.0
-message: "If you use this software, please cite it as below."
+cff-version: 1.2.0
+title: Diabetes Prediction Form
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-- family-names: "Singh"
-  given-names: "Rajkanwar"
-- family-names: "P."
-  given-names: "Anirudh"
-title: "Diabetes Prediction Form"
-version: 1.0.2
-date-released: 2023-08-29
-url: "https://github.com/Rajkanwars15/diabetes-pred_uci"
-
-# APA
-Singh, & Anirudh. (2023, August 29). Diabetes Prediction Form. https://github.com/Rajkanwars15/diabetes-pred_uci
-# MLA
-Singh, Rajkanwar, and P. Anirudh. Diabetes Prediction Form. 29 Aug. 2023, github.com/Rajkanwars15/diabetes-pred_uci.
-# BibTex
-@misc{Singh_Anirudh_2023, title={Diabetes Prediction Form}, url={https://github.com/Rajkanwars15/diabetes-pred_uci}, author={Singh, Rajkanwar and Anirudh, P}, year={2023}, month={Aug} }
+  - given-names: Rajkanwar
+    family-names: Singh
+    email: rajkanwars15@outlook.com
+  - given-names: P.
+    family-names: Anirudh
+    email: anirudhpnrao2003@gmail.com
+repository-code: 'https://github.com/Rajkanwars15/diabetes-pred_uci'
+abstract: >-
+  Noteworthy features of this tool include its precision and
+  accessibility. By harnessing the well-established
+  effectiveness of the Random Forest algorithm in diabetes
+  prognosis and leveraging the simplicity and deployability
+  of FastAPI, the emphasis on accessibility is undeniable.
+  While the tool is still in the refinement stage, its
+  potential for early diabetes identification is
+  considerable, offering the prospect of mitigating
+  complications and enhancing patient well- being.
+keywords:
+  - Diabetes Prediction
+  - Machine Learning
+  - Random Forest
+  - Software Applications
+license: GPL-3.0
+date-released: '2023-08-29'
