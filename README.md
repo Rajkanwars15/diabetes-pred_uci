@@ -2,7 +2,7 @@
 
 ## Documentation
 
-[Data Source Citation](CITATION.md)
+[Data Source Citation](Dataset_CITATION.md)
 
 ## Paper
 Codebase for _DISEASE & SYMPTOM BASED MACHINE LEARNING MODEL & SOFTWARE FOR PERSONALISED DIABETES PREDICTION_
