@@ -4,6 +4,9 @@
 
 [Data Source Citation](CITATION.md)
 
+## Paper
+Codebase for _DISEASE & SYMPTOM BASED MACHINE LEARNING MODEL & SOFTWARE FOR PERSONALISED DIABETES PREDICTION_
+
 ## Tech Stack
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -54,10 +57,12 @@ iOS Yes             |  iOS No
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU General Public License (GPL)](LICENSE.md)
 
 
 ## Authors
 
-- [![Static Badge](https://img.shields.io/badge/Rajkanwars15-yellow?logo=GitHub&link=https%3A%2F%2Fgithub.com%2FRajkanwars15)
+[![Static Badge](https://img.shields.io/badge/Rajkanwars15-yellow?logo=GitHub&link=https%3A%2F%2Fgithub.com%2FRajkanwars15)
   ](https://www.github.com/rajkanwars15)
+[![Static Badge](https://img.shields.io/badge/anirudh8092-pink?logo=GitHub&link=https%3A%2F%2Fgithub.com%2Fanirudh8092)
+  ](https://www.github.com/anirudh8092)
